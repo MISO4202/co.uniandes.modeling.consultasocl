@@ -1,0 +1,37 @@
+
+
+//Descomentar si se quieren probar consultas desde el eol directamente
+/*NumeroPersonas().println();
+NombreVictima().println();
+NumeroCuartosConObjetos().println();
+ObjetoHomicida().println();
+NumeroSospechosos().println();
+Asesino().println();*/
+
+//¿Cuántas personas hay en la casa?
+operation NumeroPersonas():Integer{
+	return Person.allInstances.Size();
+}
+
+//¿Cuál es el nombre de la víctima?
+operation NombreVictima():String{
+	//TO-DO
+}
+//¿Cuántos cuartos tienen objetos?
+
+operation NumeroCuartosConObjetos():Integer{
+	//TO-DO
+}
+//¿Qué objeto es el arma homicida? (El objeto en el cuarto donde no hay personas)
+operation ObjetoHomicida():String{
+	//TO-DO
+}
+//¿Cuántas personas son sospechosas? (No hay objetos en el cuarto donde están)
+operation NumeroSospechosos():Integer{
+	//TO-DO
+}
+//Quién es el asesino? (Debe tener menos de 30 años y ser sospechoso)
+operation Asesino():String{
+	//TO-DO
+}
+
