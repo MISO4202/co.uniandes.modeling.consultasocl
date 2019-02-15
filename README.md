@@ -1,4 +1,4 @@
-# PetriNet
+# Consultas OCL
 co.uniandes.modeling.consultasocl
 # Project Title
 
